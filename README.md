@@ -1,6 +1,12 @@
 # ISS Experience Hackathon 🚀
 
-![Logo Escuela](img/logo_industrial.jpeg) ![Logo NASA Hackathon](img/logo_nasa.png) ![Logo Equipo](img/logo_electrospace.png) !![Logo Colaborador](img/logo_multiverso.png)
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="img/logo_industrial.png" alt="Logo Escuela" width="120">
+  <img src="img/logo_nasa.png" alt="Logo NASA Hackathon" width="120">
+  <img src="img/logo_electrospace.png" alt="Logo Equipo" width="120">
+  <img src="img/logo_multiverso.png" alt="Logo Colaborador" width="120">
+</div>
+
 
 ## Descripción
 
@@ -63,7 +69,7 @@ Para consultas o sugerencias: **[nicobutter@gmail.com](mailto:nicobutter@gmail.c
 
 * **Hackathon NASA 2025**
 * **Equipo:** Ethan, Valentino, Valentina, Axl, Santiago, Nicolás
-* **Escuela:** [Nombre de tu escuela]
+* **Escuela:** Industrial N6 "X Brigada Aerea"
 
 ---
 
