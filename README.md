@@ -25,9 +25,9 @@ El sitio incluye:
 
 ## Capturas de Pantalla
 
-![Vista Cupola](ruta/a/captura_cupola.png)
-![Simulación NBL](ruta/a/captura_nbl.png)
-![Globo 3D ISS](ruta/a/captura_globo.png)
+![Vista Cupola](img/vista_cupola.png)
+![Simulación NBL](img/iss_tiempo_real.png)
+![Globo 3D ISS](img/beneficio_tierra.png)
 
 ---
 
