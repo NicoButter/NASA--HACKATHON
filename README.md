@@ -1,10 +1,12 @@
-# ISS 25 Años - NASA Hackathon 2025- Sede Río Gallegos 🚀
+<h1 style="text-align: center;">
+  ElectroSpace - ISS 25 Años - NASA Hackathon 2025 - Sede Río Gallegos 🚀
+</h1>
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <img src="img/logo_industrial.png" alt="Logo Escuela" width="120">
-  <img src="img/logo_nasa.png" alt="Logo NASA Hackathon" width="140">
-  <img src="img/logo_electrospace.png" alt="Logo Equipo" width="210">
-  <img src="img/logo_multiverso.png" alt="Logo Colaborador" width="150">
+<div style="display: flex; justify-content: center; align-items: center; gap: 25px; flex-wrap: wrap; margin-top: 20px;">
+  <img src="img/logo_industrial.png" alt="Logo Escuela" style="height: 100px;">
+  <img src="img/logo_nasa.png" alt="Logo NASA Hackathon" style="height: 100px;">
+  <img src="img/logo_electrospace.png" alt="Logo Equipo" style="height: 100px;">
+  <img src="img/logo_multiverso.png" alt="Logo Colaborador" style="height: 100px;">
 </div>
 
 
