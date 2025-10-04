@@ -19,7 +19,7 @@ El sitio incluye:
 
 * Video en vivo desde la ISS.
 * Simulación de flotabilidad en el NBL con control de un slider.
-* Globo 3D interactivo mostrando la posición de la ISS.
+* Mapa interactivo mostrando la posición de la ISS.
 * Información sobre beneficios de la investigación espacial en la Tierra.
 * Recursos y enlaces de la NASA.
 
