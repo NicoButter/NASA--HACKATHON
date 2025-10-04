@@ -2,8 +2,8 @@
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <img src="img/logo_industrial.png" alt="Logo Escuela" width="120">
-  <img src="img/logo_nasa.png" alt="Logo NASA Hackathon" width="120">
-  <img src="img/logo_electrospace.png" alt="Logo Equipo" width="120">
+  <img src="img/logo_nasa.png" alt="Logo NASA Hackathon" width="140">
+  <img src="img/logo_electrospace.png" alt="Logo Equipo" width="180">
   <img src="img/logo_multiverso.png" alt="Logo Colaborador" width="120">
 </div>
 
