@@ -1,111 +1,111 @@
 body {
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    background: #090d16;
-    color: #e0f7fa;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #090d16;
+  color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /* === INTRO === */
 #intro-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #0b0f1a, #1a237e, #000);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    text-align: center;
-    transition: opacity 1s ease, visibility 1s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #0b0f1a, #1a237e, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  text-align: center;
+  transition: opacity 1s ease, visibility 1s ease;
 }
 
 #intro-screen h1 {
-    font-size: 3.5rem;
-    color: #81d4fa;
-    text-shadow: 0 0 15px rgba(129, 212, 250, 0.7);
-    margin-bottom: 20px;
+  font-size: 3.5rem;
+  color: #81d4fa;
+  text-shadow: 0 0 15px rgba(129, 212, 250, 0.7);
+  margin-bottom: 20px;
 }
 
 .btn-start {
-    background: rgba(129, 212, 250, 0.2);
-    border: 2px solid #81d4fa;
-    color: white;
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  background: rgba(129, 212, 250, 0.2);
+  border: 2px solid #81d4fa;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn-start:hover {
-    background: rgba(129, 212, 250, 0.4);
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(129, 212, 250, 0.6);
+  background: rgba(129, 212, 250, 0.4);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(129, 212, 250, 0.6);
 }
 
 /* === CONTENIDO PRINCIPAL === */
 #main-content {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 1s ease, visibility 1s ease;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease, visibility 1s ease;
 }
 
 #main-content.visible {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .space-card {
-    background: rgba(18, 28, 45, 0.7);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(129, 212, 250, 0.3);
-    border-radius: 20px;
-    padding: 25px;
-    margin-bottom: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
+  background: rgba(18, 28, 45, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(129, 212, 250, 0.3);
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .space-card:hover {
-    transform: translateY(-10px) scale(1.01);
-    border-color: rgba(129, 212, 250, 0.7);
-    box-shadow: 0 15px 40px rgba(0, 100, 255, 0.3);
+  transform: translateY(-10px) scale(1.01);
+  border-color: rgba(129, 212, 250, 0.7);
+  box-shadow: 0 15px 40px rgba(0, 100, 255, 0.3);
 }
 
 .card-title {
-    color: #81d4fa;
-    font-weight: 700;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  color: #81d4fa;
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .card-title i {
-    font-size: 1.8rem;
-    background: rgba(2, 136, 209, 0.2);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 1.8rem;
+  background: rgba(2, 136, 209, 0.2);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* === NBL === */
 .pool-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
 }
 
 .pool {
@@ -124,61 +124,121 @@ body {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  font-size: 2.5rem; /* tamaño del icono */
+  font-size: 2.5rem;
+  /* tamaño del icono */
   color: #ffeb3b;
   z-index: 5;
 }
 
 .text-bubble {
-    position: absolute;
-    background: rgba(13, 71, 161, 0.85);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 16px;
-    font-size: 0.85rem;
-    max-width: 160px;
-    opacity: 0;
-    pointer-events: none;
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(129, 212, 250, 0.4);
-    z-index: 5;
-    /* asegurarnos que esté por encima del pool */
-    transition: all 0.5s ease;
+  position: absolute;
+  background: rgba(13, 71, 161, 0.85);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  max-width: 160px;
+  opacity: 0;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(129, 212, 250, 0.4);
+  z-index: 5;
+  /* asegurarnos que esté por encima del pool */
+  transition: all 0.5s ease;
 }
 
 .slider-container {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
-    max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
 }
 
 input[type="range"] {
-    flex: 1;
-    height: 10px;
-    border-radius: 5px;
-    background: #2c3e50;
-    outline: none;
+  flex: 1;
+  height: 10px;
+  border-radius: 5px;
+  background: #2c3e50;
+  outline: none;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: #29b6f6;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(41, 182, 246, 0.7);
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #29b6f6;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(41, 182, 246, 0.7);
 }
 
 /* === FOOTER === */
-footer {
-    text-align: center;
-    padding: 25px;
-    color: #90a4ae;
-    font-size: 0.95rem;
+.footer-nasa {
+  position: relative;
+  background: #0a0f1f;
+  color: #cfd8dc;
+  text-align: center;
+  padding: 40px 10px 25px 10px;
+  font-size: 1rem;
+  overflow: hidden;
+  border-top: 1px solid rgba(0, 188, 212, 0.3);
+  box-shadow: 0 -4px 20px rgba(0, 150, 255, 0.2);
 }
+
+.footer-nasa strong {
+  color: #00e5ff;
+  font-weight: 600;
+}
+
+.footer-nasa .footer-glow {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #00e5ff, transparent);
+  animation: scanline 4s linear infinite;
+}
+
+@keyframes scanline {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+/* === LOGOS === */
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-logo {
+  height: 60px;
+  width: auto;
+  filter: drop-shadow(0 0 8px rgba(0, 200, 255, 0.4));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px rgba(0, 200, 255, 0.8));
+}
+
+/* Sede */
+.footer-sede {
+  color: #81d4fa;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 
 /* === GLOBO DE LA ISS === */
 #iss-globe {
@@ -186,8 +246,10 @@ footer {
   position: relative;
 }
 
-#iss-globe, #map {
-  margin: 0; /* elimina el espacio entre ellos */
+#iss-globe,
+#map {
+  margin: 0;
+  /* elimina el espacio entre ellos */
 }
 
 #iss-data {
@@ -198,7 +260,7 @@ footer {
   font-family: "Courier New", monospace;
   font-size: 0.95rem;
   line-height: 1.5;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 12px rgba(0, 200, 255, 0.4);
 }
 
@@ -206,11 +268,13 @@ footer {
   display: block;
   margin-bottom: 6px;
   font-size: 1rem;
-  color: #ffffff; /* también blanco */
+  color: #ffffff;
+  /* también blanco */
 }
 
 #iss-data .highlight {
-  color: #00e5ff; /* celeste brillante */
+  color: #00e5ff;
+  /* celeste brillante */
 }
 
 
@@ -228,7 +292,7 @@ footer {
 
 .text-bubble {
   position: absolute;
-  background: rgba(13,71,161,0.85);
+  background: rgba(13, 71, 161, 0.85);
   color: white;
   padding: 6px 10px;
   border-radius: 12px;
@@ -238,8 +302,12 @@ footer {
   transform: translateY(10px);
   animation: fadeInUpBubble 0.6s forwards;
   pointer-events: none;
-  border: 1px solid rgba(129,212,250,0.4);
+  border: 1px solid rgba(129, 212, 250, 0.4);
 }
+
 @keyframes fadeInUpBubble {
-  to { opacity: 1; transform: translateY(0); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
