@@ -72,6 +72,7 @@ Para consultas o sugerencias: **[nicobutter@gmail.com](mailto:nicobutter@gmail.c
 * **Hackathon NASA 2025**
 * **Equipo:** Ethan, Valentino, Valentina, Axl, Santiago, Nicolás
 * **Escuela:** Industrial N6 "X Brigada Aerea"
+* **Sponsor** Oficial MultiversoInfinito
 
 ---
 
