@@ -67,6 +67,12 @@ Para consultas o sugerencias: **[nicobutter@gmail.com](mailto:nicobutter@gmail.c
 
 ---
 
+## Repositorio de Godot
+
+http://github.com/jujujuujuu/NASA-Hackathon---Indu-6---25-a-os-de-ISS
+
+
+
 ## Créditos
 
 * **Hackathon NASA 2025**
