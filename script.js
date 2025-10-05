@@ -46,7 +46,7 @@ const messages = {
 // --- Crear astronauta dinámicamente ---
 const astronaut = document.createElement('div');
 astronaut.className = 'astronaut-wrapper';
-astronaut.innerHTML = '<i class="bi bi-person-bounding-box"></i>'; // icono de Bootstrap
+astronaut.innerHTML = '<img src="img/astronauta_nbl.png" alt="Astronauta" style="width:100px; height:100px;">';
 pool.appendChild(astronaut);
 
 // Crear burbuja de mensaje
