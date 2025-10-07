@@ -51,7 +51,7 @@ El sitio incluye:
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/NicoButter/NASA--HACKATON
+git clone https://github.com/NicoButter/NASA--HACKATHON
 
 2. Abrir el archivo `index.html` en un navegador moderno.
 
