@@ -30,7 +30,8 @@ El sitio incluye:
 
 ## 🖼️ Capturas de Pantalla
 
-![Vista Cupola](img/vista_cupola.png)
+![Simulación Godot](img/simulacion_godot.png)
+![Vista Cupola](img/vista_cupola_2.png)
 ![Simulación NBL](img/iss_tiempo_real.png)
 ![Globo 3D ISS](img/beneficio_tierra.png)
 
